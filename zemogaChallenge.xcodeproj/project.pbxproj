@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D1F0472914A55F00967F7C /* zemogaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0462914A55F00967F7C /* zemogaChallengeApp.swift */; };
+		03D1F0492914A55F00967F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0482914A55F00967F7C /* ContentView.swift */; };
+		03D1F04B2914A56200967F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1F04A2914A56200967F7C /* Assets.xcassets */; };
+		03D1F04E2914A56200967F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1F04D2914A56200967F7C /* Preview Assets.xcassets */; };
+		03D1F0582914A56200967F7C /* zemogaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0572914A56200967F7C /* zemogaChallengeTests.swift */; };
+		03D1F0622914A56200967F7C /* zemogaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0612914A56200967F7C /* zemogaChallengeUITests.swift */; };
+		03D1F0642914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0632914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D1F0542914A56200967F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D1F03B2914A55F00967F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D1F0422914A55F00967F7C;
+			remoteInfo = zemogaChallenge;
+		};
+		03D1F05E2914A56200967F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D1F03B2914A55F00967F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D1F0422914A55F00967F7C;
+			remoteInfo = zemogaChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D1F0432914A55F00967F7C /* zemogaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zemogaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D1F0462914A55F00967F7C /* zemogaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeApp.swift; sourceTree = "<group>"; };
+		03D1F0482914A55F00967F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03D1F04A2914A56200967F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D1F04D2914A56200967F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03D1F0532914A56200967F7C /* zemogaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zemogaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D1F0572914A56200967F7C /* zemogaChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeTests.swift; sourceTree = "<group>"; };
+		03D1F05D2914A56200967F7C /* zemogaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zemogaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D1F0612914A56200967F7C /* zemogaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeUITests.swift; sourceTree = "<group>"; };
+		03D1F0632914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D1F0402914A55F00967F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D1F0502914A56200967F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D1F05A2914A56200967F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D1F03A2914A55F00967F7C = {
+			isa = PBXGroup;
+			children = (
+				03D1F0452914A55F00967F7C /* zemogaChallenge */,
+				03D1F0562914A56200967F7C /* zemogaChallengeTests */,
+				03D1F0602914A56200967F7C /* zemogaChallengeUITests */,
+				03D1F0442914A55F00967F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D1F0442914A55F00967F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D1F0432914A55F00967F7C /* zemogaChallenge.app */,
+				03D1F0532914A56200967F7C /* zemogaChallengeTests.xctest */,
+				03D1F05D2914A56200967F7C /* zemogaChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D1F0452914A55F00967F7C /* zemogaChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				03D1F0462914A55F00967F7C /* zemogaChallengeApp.swift */,
+				03D1F0482914A55F00967F7C /* ContentView.swift */,
+				03D1F04A2914A56200967F7C /* Assets.xcassets */,
+				03D1F04C2914A56200967F7C /* Preview Content */,
+			);
+			path = zemogaChallenge;
+			sourceTree = "<group>";
+		};
+		03D1F04C2914A56200967F7C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03D1F04D2914A56200967F7C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03D1F0562914A56200967F7C /* zemogaChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				03D1F0572914A56200967F7C /* zemogaChallengeTests.swift */,
+			);
+			path = zemogaChallengeTests;
+			sourceTree = "<group>";
+		};
+		03D1F0602914A56200967F7C /* zemogaChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03D1F0612914A56200967F7C /* zemogaChallengeUITests.swift */,
+				03D1F0632914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift */,
+			);
+			path = zemogaChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D1F0422914A55F00967F7C /* zemogaChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D1F0672914A56200967F7C /* Build configuration list for PBXNativeTarget "zemogaChallenge" */;
+			buildPhases = (
+				03D1F03F2914A55F00967F7C /* Sources */,
+				03D1F0402914A55F00967F7C /* Frameworks */,
+				03D1F0412914A55F00967F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zemogaChallenge;
+			productName = zemogaChallenge;
+			productReference = 03D1F0432914A55F00967F7C /* zemogaChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D1F0522914A56200967F7C /* zemogaChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D1F06A2914A56200967F7C /* Build configuration list for PBXNativeTarget "zemogaChallengeTests" */;
+			buildPhases = (
+				03D1F04F2914A56200967F7C /* Sources */,
+				03D1F0502914A56200967F7C /* Frameworks */,
+				03D1F0512914A56200967F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D1F0552914A56200967F7C /* PBXTargetDependency */,
+			);
+			name = zemogaChallengeTests;
+			productName = zemogaChallengeTests;
+			productReference = 03D1F0532914A56200967F7C /* zemogaChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03D1F05C2914A56200967F7C /* zemogaChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D1F06D2914A56200967F7C /* Build configuration list for PBXNativeTarget "zemogaChallengeUITests" */;
+			buildPhases = (
+				03D1F0592914A56200967F7C /* Sources */,
+				03D1F05A2914A56200967F7C /* Frameworks */,
+				03D1F05B2914A56200967F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D1F05F2914A56200967F7C /* PBXTargetDependency */,
+			);
+			name = zemogaChallengeUITests;
+			productName = zemogaChallengeUITests;
+			productReference = 03D1F05D2914A56200967F7C /* zemogaChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D1F03B2914A55F00967F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					03D1F0422914A55F00967F7C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					03D1F0522914A56200967F7C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 03D1F0422914A55F00967F7C;
+					};
+					03D1F05C2914A56200967F7C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 03D1F0422914A55F00967F7C;
+					};
+				};
+			};
+			buildConfigurationList = 03D1F03E2914A55F00967F7C /* Build configuration list for PBXProject "zemogaChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D1F03A2914A55F00967F7C;
+			productRefGroup = 03D1F0442914A55F00967F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D1F0422914A55F00967F7C /* zemogaChallenge */,
+				03D1F0522914A56200967F7C /* zemogaChallengeTests */,
+				03D1F05C2914A56200967F7C /* zemogaChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D1F0412914A55F00967F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D1F04E2914A56200967F7C /* Preview Assets.xcassets in Resources */,
+				03D1F04B2914A56200967F7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D1F0512914A56200967F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D1F05B2914A56200967F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D1F03F2914A55F00967F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D1F0492914A55F00967F7C /* ContentView.swift in Sources */,
+				03D1F0472914A55F00967F7C /* zemogaChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D1F04F2914A56200967F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D1F0582914A56200967F7C /* zemogaChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D1F0592914A56200967F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D1F0622914A56200967F7C /* zemogaChallengeUITests.swift in Sources */,
+				03D1F0642914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D1F0552914A56200967F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D1F0422914A55F00967F7C /* zemogaChallenge */;
+			targetProxy = 03D1F0542914A56200967F7C /* PBXContainerItemProxy */;
+		};
+		03D1F05F2914A56200967F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D1F0422914A55F00967F7C /* zemogaChallenge */;
+			targetProxy = 03D1F05E2914A56200967F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D1F0652914A56200967F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03D1F0662914A56200967F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D1F0682914A56200967F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"zemogaChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = TAWV82X5A8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neak.zemogaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03D1F0692914A56200967F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"zemogaChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = TAWV82X5A8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neak.zemogaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03D1F06B2914A56200967F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TAWV82X5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neak.zemogaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zemogaChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zemogaChallenge";
+			};
+			name = Debug;
+		};
+		03D1F06C2914A56200967F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TAWV82X5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neak.zemogaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zemogaChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zemogaChallenge";
+			};
+			name = Release;
+		};
+		03D1F06E2914A56200967F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TAWV82X5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neak.zemogaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zemogaChallenge;
+			};
+			name = Debug;
+		};
+		03D1F06F2914A56200967F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TAWV82X5A8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neak.zemogaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zemogaChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D1F03E2914A55F00967F7C /* Build configuration list for PBXProject "zemogaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1F0652914A56200967F7C /* Debug */,
+				03D1F0662914A56200967F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D1F0672914A56200967F7C /* Build configuration list for PBXNativeTarget "zemogaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1F0682914A56200967F7C /* Debug */,
+				03D1F0692914A56200967F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D1F06A2914A56200967F7C /* Build configuration list for PBXNativeTarget "zemogaChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1F06B2914A56200967F7C /* Debug */,
+				03D1F06C2914A56200967F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D1F06D2914A56200967F7C /* Build configuration list for PBXNativeTarget "zemogaChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D1F06E2914A56200967F7C /* Debug */,
+				03D1F06F2914A56200967F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D1F03B2914A55F00967F7C /* Project object */;
+}
