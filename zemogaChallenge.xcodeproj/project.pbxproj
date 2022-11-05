@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031A84772914AB0700A78C7E /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A84762914AB0700A78C7E /* PostViewModel.swift */; };
+		031A847A2914ABB600A78C7E /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A84792914ABB600A78C7E /* PostsView.swift */; };
+		031A847D2914AC4700A78C7E /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A847C2914AC4700A78C7E /* PostModel.swift */; };
+		031A847F2914AD6500A78C7E /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A847E2914AD6500A78C7E /* CustomError.swift */; };
+		031A84812914B08400A78C7E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A84802914B08400A78C7E /* PostDetailView.swift */; };
+		031A84832914B23E00A78C7E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A84822914B23E00A78C7E /* PostView.swift */; };
+		031A84872914B68D00A78C7E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A84862914B68D00A78C7E /* UserModel.swift */; };
+		031A84892914B6FE00A78C7E /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A84882914B6FE00A78C7E /* AddressModel.swift */; };
+		031A848B2914B74800A78C7E /* GeoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A848A2914B74800A78C7E /* GeoModel.swift */; };
+		031A848D2914B7DC00A78C7E /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A848C2914B7DC00A78C7E /* CompanyModel.swift */; };
+		034562542915206600446EA7 /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034562532915206600446EA7 /* CommentsModel.swift */; };
+		03456256291522EA00446EA7 /* FavoritePostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03456255291522EA00446EA7 /* FavoritePostModel.swift */; };
+		03CDE1B72915DE9800C0C263 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDE1B62915DE9800C0C263 /* CommentsView.swift */; };
+		03CDE1B92915DEF200C0C263 /* AuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDE1B82915DEF200C0C263 /* AuthorView.swift */; };
 		03D1F0472914A55F00967F7C /* zemogaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0462914A55F00967F7C /* zemogaChallengeApp.swift */; };
-		03D1F0492914A55F00967F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0482914A55F00967F7C /* ContentView.swift */; };
 		03D1F04B2914A56200967F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1F04A2914A56200967F7C /* Assets.xcassets */; };
 		03D1F04E2914A56200967F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D1F04D2914A56200967F7C /* Preview Assets.xcassets */; };
 		03D1F0582914A56200967F7C /* zemogaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0572914A56200967F7C /* zemogaChallengeTests.swift */; };
 		03D1F0622914A56200967F7C /* zemogaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0612914A56200967F7C /* zemogaChallengeUITests.swift */; };
 		03D1F0642914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0632914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift */; };
+		03D1F0722914A8C800967F7C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1F0712914A8C800967F7C /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031A84762914AB0700A78C7E /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		031A84792914ABB600A78C7E /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		031A847C2914AC4700A78C7E /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		031A847E2914AD6500A78C7E /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		031A84802914B08400A78C7E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		031A84822914B23E00A78C7E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		031A84862914B68D00A78C7E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		031A84882914B6FE00A78C7E /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		031A848A2914B74800A78C7E /* GeoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoModel.swift; sourceTree = "<group>"; };
+		031A848C2914B7DC00A78C7E /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		034562532915206600446EA7 /* CommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsModel.swift; sourceTree = "<group>"; };
+		03456255291522EA00446EA7 /* FavoritePostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePostModel.swift; sourceTree = "<group>"; };
+		03CDE1B62915DE9800C0C263 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		03CDE1B82915DEF200C0C263 /* AuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorView.swift; sourceTree = "<group>"; };
+		03CDE1BD2915E56400C0C263 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		03D1F0432914A55F00967F7C /* zemogaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zemogaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D1F0462914A55F00967F7C /* zemogaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeApp.swift; sourceTree = "<group>"; };
-		03D1F0482914A55F00967F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		03D1F04A2914A56200967F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03D1F04D2914A56200967F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03D1F0532914A56200967F7C /* zemogaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zemogaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +72,7 @@
 		03D1F05D2914A56200967F7C /* zemogaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zemogaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D1F0612914A56200967F7C /* zemogaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeUITests.swift; sourceTree = "<group>"; };
 		03D1F0632914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zemogaChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03D1F0712914A8C800967F7C /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +100,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031A84752914AAF100A78C7E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				031A84762914AB0700A78C7E /* PostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		031A84782914AB9600A78C7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				031A84792914ABB600A78C7E /* PostsView.swift */,
+				031A84802914B08400A78C7E /* PostDetailView.swift */,
+				031A84822914B23E00A78C7E /* PostView.swift */,
+				03CDE1B62915DE9800C0C263 /* CommentsView.swift */,
+				03CDE1B82915DEF200C0C263 /* AuthorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		031A847B2914AC2D00A78C7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				031A847C2914AC4700A78C7E /* PostModel.swift */,
+				031A84862914B68D00A78C7E /* UserModel.swift */,
+				031A84882914B6FE00A78C7E /* AddressModel.swift */,
+				031A848A2914B74800A78C7E /* GeoModel.swift */,
+				031A848C2914B7DC00A78C7E /* CompanyModel.swift */,
+				034562532915206600446EA7 /* CommentsModel.swift */,
+				03456255291522EA00446EA7 /* FavoritePostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		03D1F03A2914A55F00967F7C = {
 			isa = PBXGroup;
 			children = (
+				03CDE1BD2915E56400C0C263 /* README.md */,
 				03D1F0452914A55F00967F7C /* zemogaChallenge */,
 				03D1F0562914A56200967F7C /* zemogaChallengeTests */,
 				03D1F0602914A56200967F7C /* zemogaChallengeUITests */,
@@ -94,8 +158,11 @@
 		03D1F0452914A55F00967F7C /* zemogaChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				031A847B2914AC2D00A78C7E /* Model */,
+				031A84782914AB9600A78C7E /* Views */,
+				031A84752914AAF100A78C7E /* ViewModel */,
+				03D1F0702914A89B00967F7C /* ApiService */,
 				03D1F0462914A55F00967F7C /* zemogaChallengeApp.swift */,
-				03D1F0482914A55F00967F7C /* ContentView.swift */,
 				03D1F04A2914A56200967F7C /* Assets.xcassets */,
 				03D1F04C2914A56200967F7C /* Preview Content */,
 			);
@@ -125,6 +192,15 @@
 				03D1F0632914A56200967F7C /* zemogaChallengeUITestsLaunchTests.swift */,
 			);
 			path = zemogaChallengeUITests;
+			sourceTree = "<group>";
+		};
+		03D1F0702914A89B00967F7C /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				03D1F0712914A8C800967F7C /* ApiService.swift */,
+				031A847E2914AD6500A78C7E /* CustomError.swift */,
+			);
+			path = ApiService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +333,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D1F0492914A55F00967F7C /* ContentView.swift in Sources */,
+				03456256291522EA00446EA7 /* FavoritePostModel.swift in Sources */,
+				031A84772914AB0700A78C7E /* PostViewModel.swift in Sources */,
+				03CDE1B72915DE9800C0C263 /* CommentsView.swift in Sources */,
+				031A847D2914AC4700A78C7E /* PostModel.swift in Sources */,
+				031A84832914B23E00A78C7E /* PostView.swift in Sources */,
+				031A848B2914B74800A78C7E /* GeoModel.swift in Sources */,
 				03D1F0472914A55F00967F7C /* zemogaChallengeApp.swift in Sources */,
+				034562542915206600446EA7 /* CommentsModel.swift in Sources */,
+				031A848D2914B7DC00A78C7E /* CompanyModel.swift in Sources */,
+				03CDE1B92915DEF200C0C263 /* AuthorView.swift in Sources */,
+				031A84892914B6FE00A78C7E /* AddressModel.swift in Sources */,
+				031A847A2914ABB600A78C7E /* PostsView.swift in Sources */,
+				031A84812914B08400A78C7E /* PostDetailView.swift in Sources */,
+				03D1F0722914A8C800967F7C /* ApiService.swift in Sources */,
+				031A84872914B68D00A78C7E /* UserModel.swift in Sources */,
+				031A847F2914AD6500A78C7E /* CustomError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
